@@ -16,3 +16,27 @@ Variavel de saida:
 signifca nao popular e 100 signifca altamente popular.
 
 Dadas essas informaçoes, gere para mim um conjunto de dados formatados em csv contendo dados aletorios para os atributos de entrada e de saida para que eu possa usar esses dados para treinar minha rede neural. Gere 192 linhas.
+
+
+MLP
+
+Agora gere um codigo para servir de base para implementar uma MLP em python, seguindo os seguintes passos:
+
+Passo 1: Pre-processamento de dados
+– Divida o conjunto de dados em conjuntos de treinamento e teste.
+– Normalize os atributos de entrada para que estejam na faixa de [0, 1].
+
+Passo 2: Crie uma rede neural MLP
+– Crie uma rede neural MLP com camadas ocultas (quantidade e neuronios por camada podem variar).
+– Defina a camada de saida com uma funcao de ativacao apropriada.
+
+Passo 3: Treinamento da rede
+– Treine a rede neural usando o conjunto de treinamento.
+– Ajuste os hiperparametros, como taxa de aprendizado e numero de epocas, conforme necessario.
+
+Passo 4: Avaliaçao do modelo
+– Avalie o desempenho do modelo usando o conjunto de teste.
+– Calcule metricas de desempenho.
+
+Passo 5: Previsoes
+– Use a rede neural treinada para fazer previsoes de popularidade para as novas musicas que a ”Garage Band” planeja lançar.
