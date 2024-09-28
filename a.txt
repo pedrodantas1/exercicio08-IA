@@ -1,0 +1,18 @@
+A banda Garage Band é uma banda talentosa com sete membros, cada um contribuindo com seu próprio estilo musical único. Eles estão interessados em criar um modelo de previsão de popularidade de suas musicas usando uma Rede Neural MLP (Multi layer perceptron) com base em diversas caracteristicas especifcas das musicas. Para isso, eles coletaram dados sobre suas faixas anteriores e desejam criar um modelo para prever a popularidade de novas músicas.
+
+Aqui estão algumas informaçoes sobre o conjunto de dados:
+
+Atributos de entrada:
+1. Duraçao da Musica (em minutos): O tempo total da musica.
+2. Energia (0-1): Um valor que representa a energia da musica, onde 1 signifca alta energia e 0 signifca baixa energia.
+3. Valencia (0-1): Um valor que indica a positividade da musica, onde 1 signifca uma musica feliz e 0 signifca uma musica triste.
+4. Instrumentalidade (0-1): Um valor que indica a quantidade de instrumentos na musica, onde 1 signifca instrumental e 0 significa vocal.
+5. Acustica (0-1): Um valor que representa a acustica da musica, onde 1 signifca uma musica mais acustica e 0 signifca uma musica mais eletronica.
+6. Habilidade Vocal Media (0-10): A habilidade vocal media dos vocalistas da banda, onde 10 é a melhor habilidade possivel.
+7. Complexidade da Composicaao (0-1): Um valor que indica a complexidade da composicao musical, onde 1 signifca uma musica altamente complexa e 0 signifca uma musica simples.
+
+Variavel de saida:
+– Popularidade (0-100): Um valor que representa a popularidade da musica, onde 0
+signifca nao popular e 100 signifca altamente popular.
+
+Dadas essas informaçoes, gere para mim um conjunto de dados formatados em csv contendo dados aletorios para os atributos de entrada e de saida para que eu possa usar esses dados para treinar minha rede neural. Gere 192 linhas.
